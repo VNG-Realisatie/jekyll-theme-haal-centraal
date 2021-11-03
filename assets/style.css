@@ -117,7 +117,10 @@ ul.landingpage-header {
     color: #FFFFFF;
     padding: 20px 20px 0 40px;
     margin-bottom: 0rem;
-    margin: 0 0 0 0;
+    margin-left: 0rem;
+}
+ul.landingpage-header > li {
+    color: #FFFFFF;
 }
 .landingpage-header {
     background-color: #03A9F4;
