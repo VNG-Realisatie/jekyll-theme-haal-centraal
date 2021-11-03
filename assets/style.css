@@ -112,6 +112,12 @@ em {
     background-color: #FFFFFF;
     color: #03A9F4;
 }
+ul.landingpage-header {
+    background-color: #03A9F4;
+    color: #FFFFFF;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 0rem;
+}
 .landingpage-header {
     background-color: #03A9F4;
     color: #FFFFFF;
