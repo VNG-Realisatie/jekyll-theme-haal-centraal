@@ -112,21 +112,17 @@ em {
     background-color: #FFFFFF;
     color: #03A9F4;
 }
-.landingpage-header {
+ul.landingpage-header {
     background-color: #03A9F4;
     color: #FFFFFF;
     padding: 20px 20px 0 20px;
     margin-bottom: 0rem;
 }
-ul.landingpage-header {
+.landingpage-header {
     background-color: #03A9F4;
     color: #FFFFFF;
-    padding: 20px 20px 0 40px;
+    padding: 20px 20px 0 20px;
     margin-bottom: 0rem;
-    margin-left: 0rem;
-}
-ul.landingpage-header > li {
-    color: #FFFFFF;
 }
 .header {
     margin-top: 20px;
