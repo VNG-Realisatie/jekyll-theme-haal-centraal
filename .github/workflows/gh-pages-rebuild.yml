@@ -134,12 +134,3 @@ jobs:
         https://api.github.com/repos/vng-realisatie/haal-centraal-bgt-bevragen/pages/builds
       env:
         USER_TOKEN: ${{ secrets.USER_TOKEN }}
-    - name: rebuild vng-realisatie/haal-centraal-web-security
-      run: |
-        curl \
-        -X POST \
-        -H "Accept: application/vnd.github.v3+json" \
-        -H "Authorization: Bearer $USER_TOKEN" \
-        https://api.github.com/repos/vng-realisatie/haal-centraal-web-security/pages/builds
-      env:
-        USER_TOKEN: ${{ secrets.USER_TOKEN }}
