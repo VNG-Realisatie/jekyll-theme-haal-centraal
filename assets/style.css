@@ -206,7 +206,8 @@ code > span {
     color: #000;
 }
 .navbar-brand-right {
-    display: inline-block;
+    display: -webkit-box;
+    margin-left: auto;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
@@ -215,7 +216,6 @@ code > span {
     white-space: nowrap;
     color: rgba(0,0,0,.9);
     color: #fff;
-    float: right
 }
 .navbar-brand-right:focus,.navbar-brand-right:hover{
     text-decoration: none;
