@@ -185,14 +185,7 @@ ul.landingpage-header > li {
     background: url(img/VNG-Realisatie.png) no-repeat center center;
     background-size: 100% auto;
     text-indent: -9999px;
-}
-.rvig-logo {
-    display: inline-block;
-    width: 89px;
-    height: 61px;
-    background: url(img/{{ site.logo }}) no-repeat center center;
-    background-size: 100% auto;
-    text-indent: -9999px;
+    padding-bottom: .3125rem;
 }
 .doel {
     padding-bottom: 1rem;
