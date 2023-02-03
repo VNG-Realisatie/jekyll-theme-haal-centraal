@@ -185,6 +185,7 @@ ul.landingpage-header > li {
     background: url(img/VNG-Realisatie.png) no-repeat center center;
     background-size: 100% auto;
     text-indent: -9999px;
+    padding-bottom: .3125rem;
 }
 .doel {
     padding-bottom: 1rem;
@@ -196,4 +197,21 @@ ul.landingpage-header > li {
 }
 code > span {
     color: #000;
+}
+.navbar-brand-right {
+    display: -webkit-box;
+    margin-left: auto;
+    padding-top: .3125rem;
+    padding-bottom: .0rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: rgba(0,0,0,.9);
+    color: #fff;
+}
+.navbar-brand-right:focus,.navbar-brand-right:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+    color: #fff
 }
