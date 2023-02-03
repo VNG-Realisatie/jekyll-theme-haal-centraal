@@ -46,7 +46,7 @@ geregeld dat als in een md bestand in de header een variabele 'head_include' is 
 
 #### default.html
 
-Deze layout bevat de basis indeling van de Haal Centraal pagina's. Naast de variabele ``content`` worden hierin ook de variabelen ``head_include``, ``body_include`` gebruikt. 
+Deze layout bevat de basis indeling van de Haal Centraal pagina's. Naast de variabele ``content`` worden hierin ook de variabelen ``head_include`` en ``body_include`` gebruikt. 
 
 Indien er voor een md  bestand in de basis GitHub Pages folder (afhankelijk van de gekozen instelling de 'docs' folder, de 'root' folder of een specifieke branch) geen layout is gedefinieerd wordt automatisch deze layout toegekend.
 Duidelijker is echter het gebruik af te dwingen door in de header van het md bestand de vermeldde code op te nemen.
