@@ -46,10 +46,12 @@ geregeld dat als in een md bestand in de header een variabele 'head_include' is 
 
 #### default.html
 
-Deze layout bevat de basis indeling van de Haal Centraal pagina's. Naast de variabele ``content`` worden hierin ook de variabelen ``head_include`` en ``body_include`` gebruikt. 
+Deze layout bevat de basis indeling van de Haal Centraal pagina's. Naast de variabele ``content`` worden hierin ook de variabelen ``head_include``, ``body_include`` gebruikt. 
 
 Indien er voor een md  bestand in de basis GitHub Pages folder (afhankelijk van de gekozen instelling de 'docs' folder, de 'root' folder of een specifieke branch) geen layout is gedefinieerd wordt automatisch deze layout toegekend.
-Duidelijker is echter het gebruik af te dwingen door in de header de vermeldde code op te nemen.
+Duidelijker is echter het gebruik af te dwingen door in de header van het md bestand de vermeldde code op te nemen.
+
+In deze layout wordt ook bepaald welke logo's en API name getoond gaat worden. Dit gebeurd m.b.v. de variabelen ``logo`` en ``apiname``. M.b.v. de variabele ``organisation-url`` wordt bepaald waar een klik naar het organisatie logo toe leidt. Deze variabelen krijgen hun waarden in het '_config.yml' bestand.
 
 #### landing-page.html
 
@@ -195,6 +197,19 @@ Een 'path' property bevat altijd de naam van een bestand in de 'docs' folder van
 De 'url' property wordt gebruikt om een link te genereren naar een externe bron. In het bovenstaande voorbeeld is dat bijvoorbeeld gebruikt om te linken naar een lijst met userstories die in een GitLab repository staan.
 
 De 'target' property kan tenslotte gebruikt worden om er voor te zorgen dat het klikken op een link leidt tot het openen van een nieuw browser tabblad waarin de bron geöpende wordt. De waarde van de 'target' property moet dan 'blank' zijn.
+
+### Configuratie van de in de header te plaatsen API naam en organisatie logo
+
+Naast de side navigatie kan in het '\_config.yml' bestand ook de in de header te tonen organisatie logo, de daarondder liggende link en de API naam worden geconfogureerd. Dat gebeurd als volgt:
+
+```
+apiname: "BRP Personen bevragen"
+logo: "BZK_RIG_Logo_online_ex_pos_nl.png"
+organisation-url: "http://www.rvig.nl"
+```
+
+De variabele ``logo`` moet als waarde de bestandsnaam van het organisatie logo hebben dat tevens beschikbaar moet zijn in de folder 'assets/img' van het onderhavige thema. Indien deze variabele niet aanwezig is dan wordt het VNG logo geplaatst.
+``apiname`` bevat de naam van de API en ``organisation-url`` bevat de url waar het organisatie logo naar linkt.
 
 ### Bestanden met een gebruiksaanwijzing
 
