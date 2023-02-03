@@ -208,7 +208,7 @@ logo: "BZK_RIG_Logo_online_ex_pos_nl.png"
 organisation-url: "http://www.rvig.nl"
 ```
 
-De variabele ``logo`` moet als waarde de bestandsnaam van het organisatie logo hebben dat tevens beschikbaar moet zijn in de folder 'assets/img' van het onderhavige thema. Indien deze variabele niet aanwezig is dan wordt het VNG logo geplaatst.
+De variabele ``logo`` moet als waarde de bestandsnaam van het organisatie logo hebben dat tevens beschikbaar moet zijn in de folder 'assets/img' van het onderhavige thema. Indien deze variabele niet aanwezig is dan wordt het VNG logo geplaatst.<br/>
 ``apiname`` bevat de naam van de API en ``organisation-url`` bevat de url waar het organisatie logo naar linkt.
 
 ### Bestanden met een gebruiksaanwijzing
