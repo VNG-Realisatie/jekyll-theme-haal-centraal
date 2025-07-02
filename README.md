@@ -1,3 +1,8 @@
+| Eigenaar | Ingevuld door |
+| --- | --- |
+| Kennis centrum Architectuur | Robert Melskens |
+<hr/>
+
 # jekyll-theme-haal-centraal
 
 Dit theme wordt gebruikt voor het deployen van de documentatie in de Haal Centraal repositories naar GitHub Pages.
